@@ -1,7 +1,7 @@
 # DOM_Pig_Game
 HTML, CSS, JavaScript
 
-How to run the Game <just open the index.html file in your browser>
+How to run the Game: just open the index.html file in your browser
 
 Game Rolls 
 
