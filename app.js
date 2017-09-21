@@ -99,11 +99,12 @@ function init(){
 /*
 /// the update for the game 
 // if the player is Rolling two time 6x in a row 
-
+add a <var lastDice;
  // 3. update the round score if the rolled number was NOT a 1
+
         if (dice === 6 && lastDice === 6){
             scores[activePlayer] = 0;
-            document.querySelector('#scors-' + activePlayer).textContent = '0';
+            document.querySelector('#score-' + activePlayer).textContent = '0';
             nextPlayer();
         }else 
 add <if> statment on line 13
