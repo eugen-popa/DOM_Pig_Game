@@ -92,3 +92,19 @@ function init(){
 //document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
 //var x = document.querySelector('#score-0').textContent;
 //console.log(x);
+
+
+
+
+/*
+/// the update for the game 
+// if the player is Rolling two time 6x in a row 
+
+ // 3. update the round score if the rolled number was NOT a 1
+        if (dice === 6 && lastDice === 6){
+            scores[activePlayer] = 0;
+            document.querySelector('#scors-' + activePlayer).textContent = '0';
+            nextPlayer();
+        }else 
+add <if> statment on line 13
+*/
